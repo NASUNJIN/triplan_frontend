@@ -83,7 +83,7 @@ export const DropdownWrapper = styled.div<{ $isProfileOpen: boolean }>`
   position: absolute;
   top: 100%;
   background-color: white;
-  border-radius: ${({ theme }) => theme.borderRadius.xs}
+  border-radius: ${({ theme }) => theme.borderRadius.xs};
   box-shadow: ${({ theme }) => theme.shadow.rb};
   opacity: ${({ $isProfileOpen }) => ($isProfileOpen ? 1 : 0)};
   transform: translateY(${({ $isProfileOpen }) => ($isProfileOpen ? '0' : '-10px')});
